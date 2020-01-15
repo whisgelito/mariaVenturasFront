@@ -6,6 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { SliderComponent } from './slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavBarComponent,
     ServiciosComponent,
     SliderComponent,
+    TarjetasComponent,
 
   ],
   imports: [
